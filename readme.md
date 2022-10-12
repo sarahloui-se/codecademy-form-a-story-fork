@@ -14,7 +14,7 @@ The label attached to `#verb-1`'s textfield describes what to enter in it as a <
 - Developed [tests](https://regexr.com/6vpco) on RegExr to ensure that I had covered all possibilities while trying to put the regular expression together
 	- Explored unicode property escapes even though I didn't end up using them
 
-#### Explanation
+#### Explanation for `(?<![\s\S])(([a-z]{1,})(ing))(?![\s\S])`
 `(?<![\s\S])`  
 Negative lookbehind that will match any (non-)whitespace character. Any characters appearing before the first capture group will not validate.  
 
